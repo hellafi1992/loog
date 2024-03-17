@@ -1,0 +1,116 @@
+body {
+    background-image: url('color.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+summary{
+    translate: 40px -120px;
+    font-size: 25px;
+    font-weight: 900;
+    color: blue;
+    transition: all 0.1s;
+    text-align: center;
+}
+summary::before{
+    margin: 0%;
+}
+
+
+.bord{
+    translate: 0px 120px;
+}
+
+div{
+    border: 0%;
+    border-radius: 45% 50% 50% 50%;
+    width: 380px;
+    height: 380px;
+    border-left: 3px solid rgb(10, 87, 239);
+    box-shadow: 0 0 2px white;
+    animation: alt33 3s linear infinite;
+}
+
+@keyframes alt33 {
+    0%{
+        background: orchid;
+        border-radius: 45% 50% 50% 50%;
+        transform: rotate(360deg);
+    }
+    75%{
+        background: rgb(0, 110, 150);
+        border-radius: 45% 50% 50% 50%;
+        transform: rotate(0deg);
+    }
+    100%{
+        background: orchid;
+        border-radius: 45% 50% 50% 50%;
+        transform: rotate(0deg);
+    }
+}
+
+
+h1{
+    background: none;
+    color: yellow;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 25px;
+    animation: alo 3s linear infinite;
+}
+@keyframes alo {
+    0%{
+        color: rgb(216, 247, 21);
+    }
+    100%{
+        color: beige;
+    }
+}
+.txt-email{
+    translate: 150px -210px;
+}
+.txt-pass{
+    translate: 120px -210px;
+}
+
+
+
+.button{
+    translate: 140px -220px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    width: 130px;
+    height: 0%;
+}
+
+.button:active{
+    translate: 130px -220px;
+    border: 2px inset rgba(47, 17, 246, 0.735);
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    width: 130px;
+    height: 0%;
+}
+
+input{
+    translate: 90px -220px;
+    border: 2px solid goldenrod;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    width: 220px;
+    height: 25px;
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+    font-size: 18px;
+}
